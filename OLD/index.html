@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="dist/svg-pan-zoom.js"></script>
+  </head>
+
+  <body>
+    <object id="nummap" type="image/svg+xml" data="Map1-26.svg" style="width: 95%; height: 90vh; border:1px solid black; ">Your browser does not support SVG</object>
+	
+    <script>
+      // Don't use window.onLoad like this in production, because it can only listen to one function.
+      window.onload = function() {
+        svgPanZoom('#nummap', {
+          zoomEnabled: true,
+          controlIconsEnabled: true
+        });
+      };
+    </script>
+
+  </body>
+
+</html>
