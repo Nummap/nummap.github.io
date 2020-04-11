@@ -182,13 +182,13 @@ color:black;
 	position:absolute; 
 	z-index:100;
 	text-align: Left;
-	opacity: 0.4;
+	opacity: 0.2;
 	transition: opacity 2s;
 	border-radius: 6px;
 	background-color: #DDD;
 	padding:3px;
-	top:-30px; 
-	left:-30px;
+	top:2px; 
+	right:2px;
 }
 
 td.box:hover {
@@ -197,7 +197,7 @@ td.box:hover {
 
 td.box:hover span.hovercomment{
 	visibility: visible;
-	opacity: 1;
+	opacity: .8;
 }
 
 td.hbox {
