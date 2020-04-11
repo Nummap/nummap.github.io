@@ -3,15 +3,32 @@
 :root {
     /* Faction colors */
 
-    --threehundreds: 255, 200, 200;
-    --pale-gray-monochrome: 80, 91, 110;
-    --light-gray-monochrome: 167, 161, 116;
-    --gray-monochrome: 109, 105, 72;
-    --dark-gray-monochrome: 77, 73, 37;
-    --black-monochrome: 210, 210, 210;
-    --bright-accent: 109, 81, 72;
-    --medium-accent: 227, 222, 180;
-    --dark-accent: 100, 125, 125;
+		--f-000s: 255, 255, 255;
+		--f-100s: 255, 235, 215;
+		--f-200s: 215, 235, 255;
+		--f-300s: 255, 200, 200;
+		--f-400s: 175, 175, 255;
+		--f-500s: 255, 255, 200;
+		--f-600s: 235, 255, 215;
+		--f-700s: 220, 220, 175;
+		--f-800s: 170, 170, 220;
+		--f-900s: 255, 210, 240;
+		--f-do3: 200, 210, 220;
+		--f-tenplars: 230, 230, 230;
+		--f-primepride: 255, 245, 215;
+		--f-primes: 240, 240, 190;
+		--f-palindromes: 220, 255, 255;
+		--f-sevenseas: 175, 175, 255;
+		--f-lucky: 175, 255, 175;
+		--f-millennium: 200, 210, 200;
+		--f-square: 240, 220, 230;
+		--f-semiprime: 200, 200, 175;
+		--f-sphenic: 175, 200, 210;
+		--f-boring: 175, 175, 175;
+		--f-tpot: 230, 230, 230;
+		--f-deutopia: 235, 255, 245;
+		--f-bakery: 255, 245, 245;
+		--f-unities: 235, 245, 200;
 	}
 }
 
@@ -21,17 +38,147 @@ height:60px;
 color:#FFF;
 min-width:60px;
 min-height:60px;
+max-width:60px;
+max-height:60px;
 border: 1px solid rgba(50,50,50,.5);
 }
 
-td.box.hundred3 {
-background-color: rgba(var(--threehundreds), .3);
+td.box.f-000s {
+background-color: rgb(var(--f-000s));
+opacity: 0.4;
+color:black;
 }
-td.box.hundred3:hover {
-background-color: rgba(var(--threehundreds),.7);
-color:#A00;
+td.box.f-100s {
+background-color: rgb(var(--f-100s));
+opacity: 0.4;
+color:red;
+}
+td.box.f-200s {
+background-color: rgb(var(--f-200s));
+opacity: 0.4;
+color:blue;
+}
+td.box.f-300s {
+background-color: rgb(var(--f-300s));
+opacity: 0.4;
+color:red;
+}
+td.box.f-400s {
+background-color: rgb(var(--f-400s));
+opacity: 0.4;
+color:blue;
+}
+td.box.f-500s {
+background-color: rgb(var(--f-500s));
+opacity: 0.4;
+color:black;
+}
+td.box.f-600s {
+background-color: rgb(var(--f-600s));
+opacity: 0.4;
+color:green;
+}
+td.box.f-700s {
+background-color: rgb(var(--f-700s));
+opacity: 0.4;
+color:black;
+}
+td.box.f-800s {
+background-color: rgb(var(--f-800s));
+opacity: 0.4;
+color:navy;
+}
+td.box.f-900s {
+background-color: rgb(var(--f-900s));
+opacity: 0.4;
+color:purple;
+}
+td.box.f-do3 {
+background-color: rgb(var(--f-do3));
+opacity: 0.4;
+color:black;
+}
+td.box.f-tenplars {
+background-color: rgb(var(--f-tenplars));
+opacity: 0.4;
+color:black;
+}
+td.box.f-primepride {
+background-color: rgb(var(--f-primepride));
+opacity: 0.4;
+color:black;
+}
+td.box.f-primes {
+background-color: rgb(var(--f-primes));
+opacity: 0.4;
+color:black;
+}
+td.box.f-palindromes {
+background-color: rgb(var(--f-palindromes));
+opacity: 0.4;
+color:black;
+}
+td.box.f-sevenseas {
+background-color: rgb(var(--f-sevenseas));
+opacity: 0.4;
+color:black;
+}
+td.box.f-lucky {
+background-color: rgb(var(--f-lucky));
+opacity: 0.4;
+color:black;
+}
+td.box.f-millennium {
+background-color: rgb(var(--f-millennium));
+opacity: 0.4;
+color:black;
+}
+td.box.f-square {
+background-color: rgb(var(--f-square));
+opacity: 0.4;
+color:black;
+}
+td.box.f-semiprime {
+background-color: rgb(var(--f-semiprime));
+opacity: 0.4;
+color:black;
+}
+td.box.f-sphenic {
+background-color: rgb(var(--f-sphenic));
+opacity: 0.4;
+color:black;
+}
+td.box.f-boring {
+background-color: rgb(var(--f-boring));
+opacity: 0.4;
+color:black;
+}
+td.box.f-tpot {
+background-color: rgb(var(--f-tpot));
+opacity: 0.4;
+color:black;
+}
+td.box.f-deutopia {
+background-color: rgb(var(--f-deutopia));
+opacity: 0.4;
+color:black;
+}
+td.box.f-bakery {
+background-color: rgb(var(--f-bakery));
+opacity: 0.4;
+color:black;
+}
+td.box.f-unities {
+background-color: rgb(var(--f-unities));
+opacity: 0.4;
+color:black;
 }
 
+
+
+td.box:hover {
+  opacity: 0.7;
+}
 
 td.hbox {
 width:60px;
@@ -55,3 +202,30 @@ font-size:2em;
 color:white;
 border: 1px solid grey;
 }
+/*
+f-000s - Centinull
+f-100s - Second Centenarian Republic
+f-200s - Deutopian Empire
+f-300s - United States of 300
+f-400s - The Quaternity
+f-500s - The Halfways
+f-600s - Hexalted
+f-700s - United Sevens
+f-800s - DIAL800
+f-900s - 9unk 900s
+f-Do3 - Descendants of 3
+f-Tenplars
+f-PrimePride - The Prime Pride Movement
+f-Primes
+f-Palindromes
+f-SevenSeas - Seven Seas Faction
+f-Lucky - The Lucky Club
+f-Millennium - Millennium Club
+f-Square - The Square Syndicate
+f-Semiprime
+f-Sphenic - Sphenic Sphynxes
+f-Boring - Coalition of Otherwise Boring Numbers
+f-tpot - T-POT
+f-Deutopia
+f-Bakery - The Bakery Club
+f-Unities - Unified Unities */
