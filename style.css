@@ -36,6 +36,7 @@ td.box {
 width:60px;
 height:60px;
 color:#FFF;
+text-align:center;
 min-width:60px;
 min-height:60px;
 max-width:60px;
@@ -174,10 +175,8 @@ opacity: 0.4;
 color:black;
 }
 
-
-
 td.box:hover {
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 td.hbox {
